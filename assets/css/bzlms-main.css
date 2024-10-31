@@ -1,0 +1,96 @@
+.llms-wl-settings-wrap,
+.llms-wl-settings-wrap *,
+.llms-wl-settings-header,
+.llms-wl-settings-header * {
+	box-sizing: border-box;
+}
+
+.llms-wl-settings-header {
+    /* margin-bottom: 50px; */
+    /* padding: 20px; */
+    /* background: #5F36FC; */
+    width: 98%;
+}
+
+.llms-wl-settings-wrap {
+    max-width: 97%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 0;
+    margin-left: 0;
+}
+.llms-wl-settings-header h3 {
+	color: inherit;
+}
+.llms-wl-message {
+	margin: 0 !important;
+    margin-bottom: 10px !important;
+}
+.llms-wl-settings {
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    width: 98%;
+    float: left;
+}
+.llms-wl-setting-tabs {
+	background: #f9f9f9;
+}
+.llms-wl-setting-tabs a {
+	display: inline-block;
+	padding: 15px;
+	min-width: 125px;
+	text-decoration: none;
+	text-align: center;
+	outline: none !important;
+	box-shadow: none !important;
+}
+.llms-wl-setting-tabs a.active {
+	background: #fff;
+	color: #333;
+}
+
+.llms-wl-tab-license span {
+	font-style: italic;
+	color: #999;
+}
+
+.llms-wl-setting-tab-content {
+	display: none;
+	padding: 10px 30px;
+}
+.llms-wl-setting-tab-content.active {
+	display: block;
+}
+.bzrap.upload img {
+    width: 200px;
+    height: auto;
+}
+
+.llms-wl-setting-tab-content table th {
+	width: 280px;
+}
+.llms-wl-setting-tab-content label {
+	font-size: 13px;
+}
+
+.llms-wl-setting-footer {
+	background: #f9f9f9;
+	padding: 18px 30px;
+	border-top: 1px solid #f1f1f1;
+}
+.llms-wl-setting-footer p.submit {
+	margin: 0;
+    padding: 0;
+}
+.llms-wl-license-status {
+	text-transform: uppercase;
+	line-height: 2;
+	padding-right: 10px;
+}
+.llms-wl-license-inactive,
+.llms-wl-license-invalid {
+	color: #F44336;
+}
+.llms-wl-license-active {
+	color: #4CAF50;
+}
